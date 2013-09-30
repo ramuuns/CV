@@ -1,0 +1,1 @@
+CV = Em.Application.create({});
