@@ -155,7 +155,7 @@ CV.dataSource = {
 			'year' : '2013',
 			'area' : 'Live driving game system',
 			'url' : 'http://www.chase.lv',
-			'description' : 'Coded everything - both the front-end and the back end. Implemented all kinds of game logic, information hiding from the participants, live tracking of the game for the GMs',
+			'description' : 'Coded everything - both the front-end and the back end. Implemented all kinds of game logic, information hiding from the participants, live tracking of the game for the GMs (Password to see what it looks like on the inside for a finished team: JADMTDGPTWDMDPDJ)',
 			'technologies' : ['Ember.js', 'PHP', 'socket.io', 'Twitter bootstrap', 'Elephant.io', 'SQLite']
 		},
 		{
@@ -178,7 +178,7 @@ CV.dataSource = {
 			'name' : 'E-amf',
 			'year' : '2010 - 2013',
 			'area' : 'E-commerce',
-			'url' : 'http://www.e-amf.lv',
+			'url' : 'http://www.eamf.lv',
 			'description' : 'Created/modified/supported many parts of this e-commerce website. The latest task was to add an additional price in euros to be shown during the transition period of Latvia into the eurozone',
 			'technologies' : ['PHP', 'MySQL', 'jQuery', 'CSS', 'Smarty','FirstData','Banklink']
 		},
@@ -251,7 +251,7 @@ CV.dataSource = {
 			'year' : '2011',
 			'url' : 'http://www.dkveikals.lv',
 			'area' : 'E-commerce',
-			'description' : "An e-commerce website that has a few interesting design ideas. Did quite a bit of both front-end and back-end programming on this one. I'm quite proud of the product list implementation. The signup form is something only a clueless client can come up with though (but hey - if they pay - we code)",
+			'description' : "An e-commerce website that has a few interesting design ideas (obviously not mine, since I'm no designer). Did quite a bit of both front-end and back-end programming on this one. I'm quite proud of the product list implementation. The signup form is something only a clueless client can come up with though (but hey - if they pay - we code)",
 			'technologies' : ['PHP','MySQL','JavaScript', 'Smarty3']
 		}
 	],
