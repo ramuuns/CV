@@ -1,3 +1,39 @@
-<div class="row">
-	<h1>{{person.full_name}}</h1>
+<header>
+	<div class="container">
+	<div class="row">
+		<div class="col col-md-9 col-md-offset-3">
+			<h1>{{person.full_name}}</h1>
+			<p>{{person.byline}}</p>
+		</div>
+	</div>
+	</div>
+</header>
+<div class="container" id="main" >
+	<div class="row">
+		<div class="col col-md-3" id="sidebar">
+			<div class="panel panel-default  hidden-xs hidden-sm" data-spy="affix" id="side-nav">
+				<div class="panel-body">
+					<ul class="nav nav-stacked nav-pills" >
+						{{#each sections}}
+						<li><a {{bindAttr href="href"}}>{{title}}</a></li>
+						{{/each}}
+					</ul>
+					
+				</div>
+			</div>
+			<ul class="nav nav-stacked hidden-md hidden-lg">
+				{{#each sections}}
+				<li><a {{bindAttr href="href"}}>{{title}}</a></li>
+				{{/each}}
+			</ul>
+		</div>
+		<div class="col col-md-9">
+			{{#each sections}}
+				<section {{bindAttr id="id"}}>
+					<h2>{{title}}</h2>
+				{{view em_view controllerBinding="controller"}}
+				</section>
+			{{/each}}
+		</div>
+	</div>
 </div>

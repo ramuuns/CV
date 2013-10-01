@@ -1,0 +1,1 @@
+CV.SkillModel  = Em.Object.extend({});

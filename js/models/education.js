@@ -1,0 +1,1 @@
+CV.EducationModel = Em.Object.extend({});

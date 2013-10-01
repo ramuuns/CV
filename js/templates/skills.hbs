@@ -1,0 +1,16 @@
+<dl>
+{{#each skills}}
+	<dt>{{name}}</dt>
+	<dd>
+	{{#each list}}
+		<span class="list-item">
+		{{#if name}}
+			<a {{bindAttr href="url"}}>{{name}}</a>
+		{{else}}
+			{{this}}
+		{{/if}}
+		</span>
+	{{/each}}
+	</dd>	
+{{/each}}
+</dl>

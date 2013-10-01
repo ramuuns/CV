@@ -1,0 +1,22 @@
+{{#each projects}}
+	<div class="project">
+		<h3><a {{bindAttr href="url"}}>{{name}}</a></h3>
+		<p class="years">{{year}}</p>
+		<dl>
+			<dt>Area:</dt><dd>{{area}}</dd>
+			<dt>Description:</dt><dd>{{description}}</dd>
+			<dt>Technologies: </dt>
+			<dd>
+			{{#each technologies}}
+				<span class="list-item">
+				{{#if name}}
+					<a {{bindAttr href="url"}}>{{name}}</a>
+				{{else}}
+					{{this}}
+				{{/if}}
+				</span>
+			{{/each}}
+			</dd>
+		</dl>
+	</div>
+{{/each}}

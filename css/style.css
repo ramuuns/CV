@@ -1,0 +1,31 @@
+
+.list-item:not(:last-of-type):after{
+	content: ',';
+	margin-left: -3px;
+}
+
+dd {
+	margin-bottom:1ex;
+}
+
+.employer p:nth-of-type(2):before {
+	content: 'Area: ';
+}
+
+.employer p:nth-of-type(3):before {
+	content: 'Position: ';
+}
+
+p.years {
+	font-size: 0.85em;
+	color:#454545;
+	margin:-10px 0px 8px;
+}
+
+header {
+	background-color: #EDEDBA;
+}
+
+#sidebar {
+	padding-top: 10px;
+}

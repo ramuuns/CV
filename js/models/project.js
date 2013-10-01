@@ -1,0 +1,1 @@
+CV.ProjectModel = Em.Object.extend({});
