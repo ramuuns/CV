@@ -133,10 +133,11 @@ function program5(depth0,data) {
   hashContexts = {};
   data.buffer.push(escapeExpression(helpers._triageMustache.call(depth0, "title", {hash:{},contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data})));
   data.buffer.push("</h2>\r\n				");
-  hashContexts = {'controllerBinding': depth0};
-  hashTypes = {'controllerBinding': "STRING"};
+  hashContexts = {'controllerBinding': depth0,'sectionBinding': depth0};
+  hashTypes = {'controllerBinding': "STRING",'sectionBinding': "STRING"};
   data.buffer.push(escapeExpression(helpers.view.call(depth0, "em_view", {hash:{
-    'controllerBinding': ("controller")
+    'controllerBinding': ("controller"),
+    'sectionBinding': ("this")
   },contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data})));
   data.buffer.push("\r\n				</section>\r\n			");
   return buffer;
@@ -150,7 +151,7 @@ function program5(depth0,data) {
   hashTypes = {};
   hashContexts = {};
   data.buffer.push(escapeExpression(helpers._triageMustache.call(depth0, "person.byline", {hash:{},contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data})));
-  data.buffer.push("</p>\r\n		</div>\r\n	</div>\r\n	</div>\r\n</header>\r\n<div class=\"container\" id=\"main\" >\r\n	<div class=\"row\">\r\n		<div class=\"col col-md-3\" id=\"sidebar\">\r\n			<div class=\"panel panel-default  hidden-xs hidden-sm\" data-spy=\"affix\" id=\"side-nav\">\r\n				<div class=\"panel-body\">\r\n					<ul class=\"nav nav-stacked nav-pills\" >\r\n						");
+  data.buffer.push("</p>\r\n		</div>\r\n	</div>\r\n	</div>\r\n</header>\r\n<div id=\"ze-image\" class=\"hidden-xs hidden-sm\"></div>\r\n<div class=\"container\" id=\"main\" >\r\n	<div class=\"row\">\r\n		<div class=\"col col-md-3\" id=\"sidebar\">\r\n			<div class=\"panel panel-default  hidden-xs hidden-sm\" data-spy=\"affix\" id=\"side-nav\">\r\n				<div class=\"panel-body\">\r\n					<ul class=\"nav nav-stacked nav-pills\" >\r\n						");
   hashTypes = {};
   hashContexts = {};
   stack1 = helpers.each.call(depth0, "sections", {hash:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data});
@@ -160,7 +161,7 @@ function program5(depth0,data) {
   hashContexts = {};
   stack1 = helpers.each.call(depth0, "sections", {hash:{},inverse:self.noop,fn:self.program(3, program3, data),contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\r\n			</ul>\r\n		</div>\r\n		<div class=\"col col-md-9\">\r\n			");
+  data.buffer.push("\r\n			</ul>\r\n		</div>\r\n		<div id=\"rcol\" class=\"col col-md-9\">\r\n			");
   hashTypes = {};
   hashContexts = {};
   stack1 = helpers.each.call(depth0, "sections", {hash:{},inverse:self.noop,fn:self.program(5, program5, data),contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data});

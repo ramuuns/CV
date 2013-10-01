@@ -259,27 +259,32 @@ CV.dataSource = {
 		{
 			'id':'person',
 			'view' : 'person',
-			'title' : 'Personal Info'
+			'title' : 'Personal Info',
+			'img' : 'http://ramuuns.id.lv/DSC_0181.JPG'
 		},
 		{
 			'id':'skills',
 			'view' : 'skills',
-			'title' : 'Skills'
+			'title' : 'Skills',
+			'img' : 'http://www.bubble-jobs.co.uk/blog/wp-content/uploads/2013/01/coding-languages-620x350.jpg'
 		},
 		{
 			'id' : 'employers',
 			'view' : 'employers',
-			'title' : 'Employers'
+			'title' : 'Employers',
+			'img' : 'http://www.mdod.maryland.gov/uploadedImages/MDOD/Resources/Employment/employer.jpg'
 		},
 		{
 			'id' : 'education',
 			'view' : 'education',
-			'title' : 'Education'
+			'title' : 'Education',
+			'img' : 'http://empathicguidance.files.wordpress.com/2012/04/education2.jpg'
 		},
 		{
 			'id' : 'projects',
 			'view' : 'projects',
-			'title' : 'Recent Projects'
+			'title' : 'Recent Projects',
+			'img' : 'http://i.enkurs.org/resources/web/1349x624xnc/WP_000304.jpg'
 		}
 	]
 };

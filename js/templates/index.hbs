@@ -8,6 +8,7 @@
 	</div>
 	</div>
 </header>
+<div id="ze-image" class="hidden-xs hidden-sm"></div>
 <div class="container" id="main" >
 	<div class="row">
 		<div class="col col-md-3" id="sidebar">
@@ -27,11 +28,11 @@
 				{{/each}}
 			</ul>
 		</div>
-		<div class="col col-md-9">
+		<div id="rcol" class="col col-md-9">
 			{{#each sections}}
 				<section {{bindAttr id="id"}}>
 					<h2>{{title}}</h2>
-				{{view em_view controllerBinding="controller"}}
+				{{view em_view controllerBinding="controller" sectionBinding="this"}}
 				</section>
 			{{/each}}
 		</div>

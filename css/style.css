@@ -26,6 +26,31 @@ header {
 	background-color: #EDEDBA;
 }
 
-#sidebar {
+header .col {
+	position: relative;
+	background-color: #EDEDBA;
+	z-index: 2;
+}
+
+#sidebar .panel {
 	padding-top: 10px;
+	z-index: 2;
+}
+
+#ze-image {
+	position: fixed;
+	z-index: 1;
+	top:0px;
+	bottom: 0px;
+	left:0px;
+	right:70%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#rcol {
+	position: relative;
+	z-index:2;
+	background-color: white;
 }
